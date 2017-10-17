@@ -20,6 +20,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
   </head>
   <body>
     <noscript>
@@ -36,5 +37,27 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <svg>
+    <rect />
+    <rect />
+    <rect />
+    <rect />
+    <rect />
+  </svg>
   </body>
+  <script>
+    var data = [100, 250, 175, 200, 120];
+    var rectWidth = 50;
+    var height = 200;
+
+    d3.selectAll('rect')
+    	.data(data)
+    	.attr('x', (d, i) => i * rectWidth)
+    	.attr('y', d => height - d)
+    	.attr('width', rectWidth)
+    	.attr('height', d => d)
+    	.attr('fill', 'blue')
+    	.attr('stroke', '#fff');
+
+  </script>
 </html>
