@@ -38,11 +38,6 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   <svg>
-    <rect />
-    <rect />
-    <rect />
-    <rect />
-    <rect />
   </svg>
   </body>
   <script>
@@ -50,8 +45,12 @@
     var rectWidth = 50;
     var height = 200;
 
-    d3.selectAll('rect')
-    	.data(data)
+    var svg = d3.select('svg');
+
+    svg.selectAll('rect')
+      .data(data)
+      .enter()
+      .append('rect')
     	.attr('x', (d, i) => i * rectWidth)
     	.attr('y', d => height - d)
     	.attr('width', rectWidth)
