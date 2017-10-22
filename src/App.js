@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import BarChart from './BarChart'
+import ChartPage from './ChartPage'
 
 class App extends Component {
   render() {
     return (
-      <BarChart nodes={[100, 250, 175, 200, 120]}/>
+      <ChartPage />
     );
   }
 }
