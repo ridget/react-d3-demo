@@ -37,26 +37,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <svg>
-  </svg>
   </body>
   <script>
-    var data = [100, 250, 175, 200, 120];
-    var rectWidth = 50;
-    var height = 200;
-
-    var svg = d3.select('svg');
-
-    svg.selectAll('rect')
-      .data(data)
-      .enter()
-      .append('rect')
-    	.attr('x', (d, i) => i * rectWidth)
-    	.attr('y', d => height - d)
-    	.attr('width', rectWidth)
-    	.attr('height', d => d)
-    	.attr('fill', 'blue')
-    	.attr('stroke', '#fff');
 
   </script>
 </html>
