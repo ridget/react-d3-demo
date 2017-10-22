@@ -1,8 +1,6 @@
 import React from 'react';
 import * as d3 from 'd3';
 
-const rectWidth = 50;
-
 class BarChart extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +26,7 @@ class BarChart extends React.Component {
                 <g className="nodes" transform={`translate(${this.margins.left}, 0)`}>
                     {nodes.map((node, idx) => {
                         return (
-                            <rect key={idx} x={idx * rectWidth} y={this.yScale(node.popularity)} width={this.rectWidth} height={this.heightScale(node.popularity)} fill='blue' stroke='#fff' />
+                            <rect key={idx} x={idx * this.rectWidth} y={this.yScale(node.popularity)} width={this.rectWidth} height={this.heightScale(node.popularity)} fill='blue' stroke='#fff' />
                         )
                     })}
                 </g>

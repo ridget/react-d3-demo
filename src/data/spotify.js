@@ -1115,7 +1115,7 @@ const rawData = {
 
 const data = rawData["items"].map((d, idx) => {
   return {
-    "name": d["album"]["name"],
+    "name": d["name"],
     "artist": d["artists"][0]["name"],
     "popularity": d["popularity"],
     "duration": (d["duration_ms"] / 10000),

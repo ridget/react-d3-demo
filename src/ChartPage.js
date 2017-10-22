@@ -1,11 +1,10 @@
 import React from 'react';
-import * as d3 from 'd3';
-import BarChart from './BarChart';
+import PieChart from './PieChart';
 import data from './data/spotify.js';
 
 class ChartPage extends React.Component{
   render() {
-    return <BarChart nodes={data} />
+    return <PieChart nodes={data} />
   }
 };
 
