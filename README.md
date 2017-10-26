@@ -1,3 +1,10 @@
+## Useful Links for d3 stuffs
+
+* Highly recommend this course by Shirley Wu on [Frontend Masters](https://frontendmasters.com/courses/d3-v4/)
+* [blockbuilder.org](http://blockbuilder.org/) is a fantastic resource. I highly recommmend starting with a search for visualizations from the creator of d3 by going straight to this [search](http://blockbuilder.org/search#user%3Dmbostock) 
+* Shirley Wu also has some fantastic visualisations to draw inspiration from on her (site)[http://sxywu.com/]
+
+## Boilerplate Readme
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
