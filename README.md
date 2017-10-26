@@ -2,19 +2,20 @@
 
 * Highly recommend this course by Shirley Wu on [Frontend Masters](https://frontendmasters.com/courses/d3-v4/)
 * [blockbuilder.org](http://blockbuilder.org/) is a fantastic resource. I highly recommmend starting with a search for visualizations from the creator of d3 by going straight to this [search](http://blockbuilder.org/search#user%3Dmbostock) 
-* Shirley Wu also has some fantastic visualisations to draw inspiration from on her (site)[http://sxywu.com/]
-
-## Boilerplate Readme
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+* Shirley Wu also has some fantastic visualisations to draw inspiration from on her [site](http://sxywu.com/)
 
 ## Seeing the examples
 
 I've placed the different examples in different branches for ease of reach
 
 simply checkout each numeric branch in order as you want to step through the changes etc. 
+
+
+## Boilerplate Readme
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+Below you will find some information on how to perform common tasks.<br>
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
 
